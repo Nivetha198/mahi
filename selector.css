@@ -1,0 +1,52 @@
+
+/* universal selector(*)selects all elements on the page  */
+*{
+    background-color: rgba(170, 255, 0, 0.408);
+}
+/* element selector selects specific elements */
+
+p{
+    color: blue;
+}
+
+/* class selector(.) selects elements with specific attribute */
+.para{
+    color:blueviolet;
+}
+
+/* id selector(#) selects elements with specified id elements */
+
+#style
+{
+    color: rgb(255, 0, 179);
+}
+
+/* group selectors applies same style to multiple elements */
+
+h1,h4,.para{
+    color:rgb(100, 35, 0);
+}
+/* pseudo class */
+/* hover styles text when hover over them */
+li:hover{
+    color:crimson;
+}
+/*  :focus  represents an element that has received focus */
+
+input:focus{
+    background-color: blueviolet;
+}
+
+.container ~p{
+    color: royalblue;
+}
+.container p:first-child
+{
+    color: green;
+}
+
+
+
+
+
+
